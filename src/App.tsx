@@ -5,7 +5,9 @@ function App() {
   const { t } = useTranslation();
 
   return (
-    <>{t('Welcome to React')}</>
+    <>
+      {t('Welcome to React')}
+    </>
   )
 }
 
